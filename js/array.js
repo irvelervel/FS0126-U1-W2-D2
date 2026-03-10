@@ -9,4 +9,4 @@ const valoriBooleani = [true, true, false]
 const oggetti = [{ age: 20 }, { age: 18 }, { age: 16 }]
 
 // anche se è poco utile/pratico, si possono fare anche array "misti"
-const misto = ['giangiorgio', 35, false, 'sio', { sio: true }]
+const misto = ['giangiorgio', 35, false, 'sio', { scottecs: true }]
