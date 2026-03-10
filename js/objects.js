@@ -54,3 +54,11 @@ lampada[value] // true
 // la square brackets notation si utilizza quando si vuole accedere alla proprietà di un oggetto
 // ma non si ha magari il nome della chiave! si ha però una variabile il cui VALORE è il nome della chiave!
 // perchè lampada.value non esiste, io voglio lampada."VALOREDIVALUE"
+
+lampada.temperaturaLuce // '3500k'
+// MODIFICO LE PROPRIETÀ DI LAMPADA
+lampada.temperaturaLuce = '5000k'
+lampada.aNorma = false
+lampada.prezzo.qty = 10
+
+console.log('LAMPADA DOPO MODIFICHE', lampada)
